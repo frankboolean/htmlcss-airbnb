@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.destinazione{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/roma.jpg");
+  background-size: cover;
+  position: relative;
+
+}
+
+h1{
+  font-size: 5vw;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.layover{
+  background-color: rgb(255,255,255,0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.destinazione1{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/copena.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.destinazione2{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/tokyo.jpg");
+  background-size: cover;
+  position: relative;
+}
